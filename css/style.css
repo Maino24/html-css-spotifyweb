@@ -5,9 +5,33 @@
     border: black 1px solid;
 }
 
-.container-vh-vw{ 
+#container-vh-vw{ 
     width: 100vw;
     height: 100vh;
     display: flex;
+    margin: auto;
+    flex-direction: column;
+    /*align-items: flex-end;*/
 }
 
+.container-superiore{
+    display: flex;
+    flex-grow: 2;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.colonna-sinistra-nera{
+    width: 20%;
+    background-color: black;
+}
+
+.container-h-m{
+    width: 80%;
+}
+
+
+.footer{
+    width: 100%;
+    flex-grow: 0;
+}
