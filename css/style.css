@@ -108,8 +108,6 @@ li{
     justify-content: space-between;
     background-color: rgb(44, 43, 43);
     color: white;
-    align-items: center;
-    align-items: flex-end;
     height: 15%;
 }
 
@@ -134,4 +132,10 @@ li{
 
 .col>i{
     margin: 0 15px;
+}
+
+.terza-col-footer{
+    justify-content: end;
+    /*vertical-align: middle;*/
+   align-items: center;
 }
