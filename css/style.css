@@ -7,19 +7,7 @@
 
 .container-vh-vw{ 
     width: 100vw;
-}
-
-.container-sezioni{
-    display: flex;
-    margin: auto;
-    width: 100%;
     height: 100vh;
+    display: flex;
 }
 
-.colonna-sinistra{
-    flex-basis: 20%;
-}
-
-.colonna-destra{
-    flex-basis: 80%;
-}
