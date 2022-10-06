@@ -19,7 +19,7 @@
     flex: 2;
     width: 100%;
     flex-direction: row-reverse;
-    
+    height: 80vh;
 }
 
 .container-h-m{
@@ -116,7 +116,9 @@ li{
 
   .main{
     padding: 10px;
-    overflow: auto;
+    overflow: scroll;
+    height: calc((100vh - 15vh));
+    
   }
 
  .lista-orizzontale{
@@ -129,37 +131,51 @@ li{
     padding-right: 20px;
  }
 
- .container-copertine{
+ .albums{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-copertine{
     width: 100%;
     display: flex;
-    margin: auto;
- }
+}
 
  .colonna{
     width: calc(100% / 6);
- }
+    border: 1px solid black;
+    
+    /*background-image: url(../img/metal_lifting.jpg);
+    background-size: contain;
+    background-repeat: no-repeat
+    height: 200px; */
+}
 
  .colonna>img{
     height: 200px;
-    margin-top: 20px;
  }
+
+ /*.nome-copertina{
+    display: block;
+ }*/
 
 
 
    /* FOOTER */
 
 .footer{
-    /*position: relative;*/
-    position: fixed;
+    position: relative;
+    position: sticky;
     bottom: 0;
     width: 100%;
-   /* flex: 1;*/
     display: flex;
     margin: auto;
     justify-content: space-between;
     background-color: rgb(44, 43, 43);
     color: white;
-    height: 80px;
+    height: 15vh;
 }
 
 .col{
