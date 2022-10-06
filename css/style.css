@@ -50,6 +50,7 @@
   /* COLONNA SINISTRA NERA */
 
 .colonna-sinistra-nera{
+    display: flex;
     position: fixed;
     position: relative;
     top: 0;
@@ -60,8 +61,10 @@
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
-
 .spotify-logo--text{
     width: 200px;
 }
@@ -97,19 +100,12 @@ li{
 }
 
 .footer-c-s{
-   display: flex;
-   margin: auto;
-   flex-direction: column;
-   margin-top: 40px;
-   /*padding-bottom:200px;*/
    vertical-align: center;
-   
 }
 
 .p-installa{
     border-bottom: 1px solid grey;
     padding-top: 10px ;
-    
 }
 
   /* MAIN */
