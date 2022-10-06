@@ -117,7 +117,7 @@ li{
     padding: 10px;
     height: calc(100vh - 23vh);
     overflow-y: scroll;
-    background-color: #1A1919;
+    background-color: #05020e;
     color: white;
   }
 
@@ -135,6 +135,12 @@ li{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.titoli-main{
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .container-copertine{
@@ -148,7 +154,16 @@ li{
 
  .colonna>img{
     height: 200px;
+ }
 
+ .container-nome-copertina{
+    text-align: center;
+    padding: 5px;
+ }
+
+ .nome-copertina{
+    padding-top: 5px;
+    color: grey;
  }
 
 .copertine-rotonde{
