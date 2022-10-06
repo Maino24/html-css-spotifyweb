@@ -156,6 +156,11 @@ li{
     height: 200px;
  }
 
+.copertine-rotonde{
+    border-radius: 50%;
+    
+}
+
 
    /* FOOTER */
 
