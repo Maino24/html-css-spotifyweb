@@ -103,6 +103,7 @@ li{
    margin-top: 40px;
    /*padding-bottom:200px;*/
    vertical-align: center;
+   
 }
 
 .p-installa{
@@ -115,7 +116,7 @@ li{
 
   .main{
     padding: 10px;
-    height: calc(100vh - 23vh);
+    height: calc(100vh - 15%);
     overflow-y: scroll;
     background-color: #05020e;
     color: white;
@@ -184,7 +185,7 @@ li{
     justify-content: space-between;
     background-color: rgb(44, 43, 43);
     color: white;
-    height: 15vh;
+    height: 15%;
 }
 
 .col{
