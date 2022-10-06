@@ -16,13 +16,16 @@
 
 .container-superiore{
     display: flex;
-    flex-grow: 85%;
+    flex: 2;
     width: 100%;
     flex-direction: row-reverse;
+    
 }
 
 .container-h-m{
-    width: 80%;
+    flex: 6;
+    overflow: auto;
+    
 }
 
   /*HEADER*/
@@ -51,13 +54,13 @@
     position: fixed;
     position: relative;
     top: 0;
-    width: 20%;
+    width: 100%;
+    flex: 1;
     background-color: black;
     color: white;
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    height: calc(100vh - 15%);
 }
 
 .spotify-logo--text{
@@ -110,27 +113,53 @@ li{
 }
 
   /* MAIN */
- 
 
+  .main{
+    padding: 10px;
+    
+  }
 
+ .lista-orizzontale{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+ }
 
+ .lista-o{
+    padding-right: 20px;
+ }
+
+ .container-copertine{
+    width: 100%;
+    display: flex;
+    margin: auto;
+ }
+
+ .colonna{
+    width: calc(100% / 6);
+ }
+
+ .colonna>img{
+    height: 200px;
+    margin-top: 20px;
+ }
 
 
 
    /* FOOTER */
 
 .footer{
-    position: relative;
+    /*position: relative;*/
     position: fixed;
     bottom: 0;
     width: 100%;
-    /*flex-grow: 15%;*/
+   /* flex: 1;*/
     display: flex;
     margin: auto;
     justify-content: space-between;
     background-color: rgb(44, 43, 43);
     color: white;
-    height: 15%;
+    height: 80px;
 }
 
 .col{
