@@ -24,7 +24,7 @@
 
 .container-h-m{
     flex: 6;
-    
+    height: 80vh;
     
 }
 
@@ -116,9 +116,8 @@ li{
 
   .main{
     padding: 10px;
-    overflow: scroll;
-    height: calc((100vh - 15vh));
-    
+    height: calc(100vh - 25vh);
+    overflow-y: scroll;
   }
 
  .lista-orizzontale{
@@ -156,11 +155,6 @@ li{
  .colonna>img{
     height: 200px;
  }
-
- /*.nome-copertina{
-    display: block;
- }*/
-
 
 
    /* FOOTER */
