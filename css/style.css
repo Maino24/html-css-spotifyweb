@@ -24,7 +24,7 @@
 
 .container-h-m{
     flex: 6;
-    overflow: auto;
+    
     
 }
 
@@ -116,7 +116,7 @@ li{
 
   .main{
     padding: 10px;
-    
+    overflow: auto;
   }
 
  .lista-orizzontale{
