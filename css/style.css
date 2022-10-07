@@ -216,6 +216,7 @@ li{
     padding: 10px;
     display: flex;
     align-items: center;
+    border: 1px solid white;
 }
 
 .img-footer{
@@ -238,6 +239,10 @@ li{
     justify-content: end;
     /*vertical-align: middle;*/
    align-items: center;
+}
+
+.col-footer-center{
+    justify-content: center;
 }
 
 
